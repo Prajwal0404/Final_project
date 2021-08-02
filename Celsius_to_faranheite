@@ -1,0 +1,8 @@
+# Python Program to convert temperature in celsius to fahrenheit
+
+# In the following program we are taking the input from user, user enters the temperature in celsius
+
+
+celsius = float(input("Enter temperature in celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print('%.2f Celsius is: %0.2f Fahrenheit' %(celsius, fahrenheit))
